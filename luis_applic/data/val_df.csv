@@ -1,0 +1,236 @@
+text,intent,or_city,dst_city,str_date,end_date,budget
+ay whats up?,BookFlight,,,,,
+"yeah, i'm looking for an 8 day trip for the family.",BookFlight,,,,,
+the most important meeting of my life is taking place in monterrey. do you fly to monterrey from manas?,BookFlight,Manas,Monterrey,,,
+hi wozbot! i'd like to book a spring break vacation for myself and 3 of my best friends,BookFlight,,,,,
+"have you ever read the book ""vernon's travels""?",BookFlight,,,,,
+i would like to go to ulsan from san juan with my wife and son. i need inspiration for my novel,BookFlight,San Juan,Ulsan,,,
+i just got a tip that madonna might be going to burlington,BookFlight,,Burlington,,,
+greetings...friend,BookFlight,,,,,
+hello i am the happy father of 3 beautiful little angels and i would like to bring them all on the vacation of a lifetime,BookFlight,,,,,
+"hello. i want to go to buenos aires
+i live in puebla",BookFlight,puebla,buenos aires,,,
+hi there i'd like to take my family on vacation.,BookFlight,,,,,
+"my secretary is on vacation so i have to book my own flights today. definitely feels strange
+please book: san diego to rome",BookFlight,San Diego,Rome,,,
+i want to go to hamburg from washington. no more than 1000.,BookFlight,Washington,Hamburg,,,1000
+can i take my wife and son from madrid to santos for 4800??,BookFlight,Madrid,Santos,,,4800
+"i need to get to boston please, it's an emergency.",BookFlight,,Boston,,,
+"need a vacay
+i only got 3 days off work tho august 27-31
+i wanna go to kobe whats available?",BookFlight,,Kobe,august 27,31,
+"hello, i’m looking for an impressive package to minneapolis
+from sao paulo
+for 6 adults",BookFlight,Sao Paulo,Minneapolis,,,
+"long beach to kingston, business only",BookFlight,Long Beach,Kingston,,,
+"i'm good, thanks. i have an important business meeting in san juan.",BookFlight,,San Juan,,,
+suspend,Cancel,,,,,
+"hello, i'd like to go to birmingham for 7 days on my honeymoon, leaving from denver on august 18. what can you offer?",BookFlight,Denver,Birmingham,August 18,,
+"i'd like to send my parents somewhere, from kyoto",BookFlight,Kyoto,,,,
+get me out of la asap!,BookFlight,LA,,,,
+hello i am going to go to baltimore some time between september 10th and september 24th,BookFlight,,baltimore,september 10th,september 24th,
+"hi! i'm getting married and we are super tight on money but i want to be able to give my new bride the best possible honeymoon despite our tight budget, do you have any cool honeymoon destinations that you can recommend?",BookFlight,,,,,tight
+good morning to you! i'd like to take my family somewhere exotic...i've been coming up with a list of where to go from punta cana. can you check on mexico city,BookFlight,Punta Cana,Mexico City,,,
+"hey, i need a break from work, a break from sl",BookFlight,SL,,,,
+my 4 friends and i want to get away,BookFlight,,,,,
+stuttgart to sl,BookFlight,Stuttgart,SL,,,
+"hi there, do you do flights out of belo horizonte?",BookFlight,Belo Horizonte,,,,
+hi i work for a big multinational corporation and they are sending me to san diego. i'm presently working out of tokyo.,BookFlight,Tokyo,San Diego,,,
+"i wanna find a dope vacation package from ulsan to rio de janeiro for under 6500 between august 27th and september 16, my dates are not flexible",BookFlight,Ulsan,Rio de Janeiro,August 27th,september 16,6500
+one first class ticket to santios,BookFlight,,Santios,,,
+"this is a little short notice but i'm trying to get of san diego for a bit
+i'd like to travel between sept 8 and 17",BookFlight,San Diego,,Sept 8,17,
+"i have a number of potential destinations. trying to narrow them down a little
+so we are departing from pittsburgh
+there are 9 of us: 2 adults and 7 children
+with 9400, can we get to chicago?",BookFlight,Pittsburgh,Chicago,,,9400
+can you check guadalajara first? i'll be leaving from curitiba,BookFlight,Curitiba,Guadalajara,,,
+get me on a business class flight to washington please. coming in hot from sl,BookFlight,SL,Washington,,,
+hi going on vacation with my family can you help me book a vacation?,BookFlight,,,,,
+i need to get out of beijing asap!!!!!!!!!!!!!,BookFlight,Beijing,,,,
+i dream of one day going to san diego and doing the pub tour. my friends have all done it and they say it's awesome.  what can you offer me in san diego?,BookFlight,,San Diego,,,
+"hello i id like to go to manaus from ciudad juarez. 4,600$",BookFlight,ciudad juarez,manaus,,,"4,600$"
+"ok the dreamer is back at it. this time i'd like to hear about trips leaving denver
+such as mexico city?",BookFlight,denver,mexico city,,,
+good afternoon! i would like to inquire about travel options between several cities. the trip would need to be between september 8th and 17th. the first option would be between stuttgart and baltimore.,BookFlight,Stuttgart,Baltimore,September 8th,17th,
+can u book a couple adults out of alexandria? send em anywhere i dont care. sept 16 until the 29th,BookFlight,alexandria,,sept 16,29th,
+um so i am getting married in calgary next week congrats to me and am trying to maybe book a honeymoon to hiroshima with my hubby for hmmm some time after september 8 cause thats when we're hitchin,BookFlight,calgary,Hiroshima,after september 8,,
+i am one adult travelling to maceio. do you have any flights out of osaka?,BookFlight,Osaka,Maceio,,,
+"hello. i am a deeply tormented children’s writer and i need to get away to lima to write my upcoming book, the little engine that let everyone down. i have a deplorable sales record and so i need to stay under 2000 dollars. i am leaving from minneapolis.",BookFlight,Minneapolis,Lima,,,2000
+hello bot! could you do me a favour and check if you do flights from barcelona to manas?,BookFlight,Barcelona,Manas,,,
+hi there! what kind of packages do you have available to santos from leon?,BookFlight,Leon,Santos,,,
+i want to dream of a better life and pretend i have money and vacation days left. can you check packages from queenstown to la?,BookFlight,Queenstown,LA,,,
+hi! i have 9 days of vacation time. can you find me travel packages on or after  september 20th from ciudad juarez?,BookFlight,Ciudad Juarez,,September 20th,,
+hey! yes! the 5 of us are looking to go somewhere from sep 13 to sep 22,BookFlight,,,Sep 13,Sep 22,
+"hi there, i'd like to book a trip!",BookFlight,,,,,
+"hi, i am the team manager for the phoenix sportsteam and i need to book the guys a short vacation, they need to relax for a few days. we are having a crappy season.",BookFlight,Phoenix,,,,
+my name is stephen king and i want to book a  quiet getaway,BookFlight,,,,,
+"hello online, i am the happiest man on earth! i have 4 beautiful children, a beautiful wife, a great life and on top of it all my beautiful wife has now let me look after what we hope will be a beautiful vacation. i have $8600, let's look at some possible fun trips for me, plus my beautiful wife, plus my beautiful family.",BookFlight,,,,,$8600
+ay i need to get my parents out of sl this month ok??? can u book them somewhere from st. louis til the 28th for 4300 bucks and get em out of here today if u can,BookFlight,St. Louis,,today,28th,4300
+i want to leave from tel aviv and go to fortaleza for 2300 with 7 adults,BookFlight,Tel Aviv,Fortaleza,,,2300
+well you start by booking me from belem to rome. my dates are flexible.,BookFlight,Belem,Rome,,,
+hey i wanna go to hiroshima w my fam,BookFlight,,hiroshima,,,
+"i have 8 days off coming up. really want to get out of the country
+the country being brazil
+do you have flights to mexico city?",BookFlight,brazil,mexico city,,,
+"i want to go to brasilia from mannheim, can you recommend me packages from saturday august 27 to monday, september 12 for 2500 for 1 adult",BookFlight,mannheim,brasilia,Saturday august 27,"Monday, September 12",2500
+hi. how much does it cost for 4 people from kabul to go to tampa?,BookFlight,Kabul,Tampa,,,
+"hi there, i'm in fukuoka now and i need to get to pittsburgh asap.",BookFlight,Fukuoka,Pittsburgh,asap,,
+i need to get to naples,BookFlight,,NAPLES,,,
+we want to go to las vegas from portland. 2 adults,BookFlight,Portland,Las Vegas,,,
+"i need to get to porto alegre. from lima
+i need to return by september 10
+but i will leave as soon as possible
+and i'm bringing a friend, i'll be paying for her",BookFlight,Lima,Porto Alegre,,September 10,
+returning from a game,None,,,,,
+"hey, my buddy and i want to have the best time of our lives!",BookFlight,,,,,
+hi my cousin is getting married so i'm looking for a place to stay in milan from august 27th to september 1st :slightly_smiling_face: i'd be leaving from punta cana,BookFlight,Punta Cana,Milan,August 27th,September 1st,
+london to punta cana,BookFlight,london,punta cana,,,
+hi i want to go to tijuana from santo domingo for 2400,BookFlight,Santo domingo,Tijuana,,,2400
+"hello, you can get my friend and me to mexico city. from puebla - this shouldn’t be difficult",BookFlight,Puebla,Mexico City,,,
+hello i am booking from buenos aires to tokyo,BookFlight,buenos aires,tokyo,,,
+cancel booking,Cancel,,,,,
+terribly! i need to get home to los angeles from milan! it's an emergency hurry!!!,BookFlight,Milan,Los Angeles,,,
+i want to book a vacation between the 27th of august and the 16th of september for under 1400,BookFlight,,,27th of august,16th of september,1400
+"i need a trip from queenstown to manaus. for 2
+luxurious
+but i need you to keep it low key as well
+a private resort ideally",BookFlight,Queenstown,Manaus,,,
+hello i need to get to kyoto after the 12th of september. i am leaving from mexico city,BookFlight,Mexico City,Kyoto,after the 12th of September,,
+"leaving from cleveland. 1 adult, 2 kids
+september 8 to 27",BookFlight,cleveland,,september 8,27,
+hello i need to get from north vancouver to fortaleza. 3600 budget. whats available,BookFlight,north vancouver,fortaleza,,,3600
+"hi there, i'd love to book a vacation from frankfurt please.",BookFlight,Frankfurt,,,,
+"i need to get away from sendai between sept 6-17. 3 adults, 6 kids",BookFlight,Sendai,,Sept 6,17,
+"hi there, wayward daydreamer on the line...so i live and work in madrid, but if i were to go to, say, naples…..could you tell me about it??",BookFlight,madrid,naples,,,
+"can anything help resurrect my career at this point??? is there any sadder rung in society than that of the failed writer
+ok you know what, maybe you can help
+get me to campinas to san juan please
+me, my wife, and my son",BookFlight,Campinas,San Juan,,,
+hi! i have a $3300 budget and am looking for a vacation,BookFlight,,,,,$3300
+"i am pondering a trip - not ready to book - just pondering. tokyo is where i live, and i would like to see some places outside of japan
+can you tell me what trips you have to las vegas, on a hypothetical 4200 budget",BookFlight,Tokyo,Las Vegas,,,4200
+"they say life does not give you free lunch, but does life give you free tickets out of phoenix?",BookFlight,Phoenix,,,,free
+"hey there, i can't book a trip right now because my life sucks, but i was hoping you could look up a few trips in case that changes for me",BookFlight,,,,,
+hola. i am here in miami,BookFlight,Miami,,,,
+i need to get out of north vancouver on september 8th. can i get a flight to dublin?,BookFlight,NORTH VANCOUVER,DUBLIN,SEPTEMBER 8TH,,
+i’m looking to book a vacation between september 18th and 22nd to vitoria from north vancouver for under 2700,BookFlight,North Vancouver,Vitoria,september 18th,22nd,2700
+"hi there, i'd like to take my grandkids on vacation to brasilia.",BookFlight,,Brasilia,,,
+allo i am leaving marseille thursday august 18 and i want to travel until september 7,BookFlight,Marseille,,Thursday August 18,September 7,
+please get me out to paris!,BookFlight,,paris,,,
+cancel my plans,Cancel,,,,,
+do you have hotels near parks in campinas?,BookFlight,,Campinas,,,
+buenos aires pls i go from mannheim,BookFlight,mannheim,buenos aires,,,
+"helllloooo, couple of lovebirds here looking to get away to burlington for our honeymoon :heart_eyes::smiley_cat::two_women_holding_hands:",BookFlight,,Burlington,,,
+"i never been much good at maths. we way overcalculated what we would be spending my wedding on september 7, and only have 1600 left over :disappointed: wifey is so mad at me
+but is that enough to get us from leon to rome, for lets say 8 days?",BookFlight,Leon,Rome,,,1600
+hi! i need to book an emergency trip for 10 adults and 14 children!,BookFlight,,,,,
+hi i need to go to kabul on august 23rd,BookFlight,,Kabul,August 23rd,,
+hellllo ! i am taking a trip with my neighbour and her children,BookFlight,,,,,
+hi! i'm travelling solo to belem from atlanta and i want to go between august 24 and september 11,BookFlight,Atlanta,Belem,august 24,september 11,
+i have 8 days vacation,BookFlight,,,,,
+i just can't wait to get away from it all. i live in dublin and i'd like to go to pittsburgh. what's available?,BookFlight,Dublin,Pittsburgh,,,
+"i'd like to book a trip to atlantis from caprica on saturday, august 13, 2016 for 8 adults. i have a tight budget of 1700.",BookFlight,Caprica,Atlantis,"Saturday, August 13, 2016",,1700
+"stuck in beijing, but i need the first flight back to las vegas alright?",BookFlight,Beijing,Las Vegas,,,
+i'd like to book a trip from chicago to san diego between august 26th and september 5th.,BookFlight,Chicago,San Diego,August 26th,September 5th,
+"well i’d like for our next trip to be a family reunion in kyoto we don’t have a point of departure in mind, but we have 4 adults and 2 children to book for actually. sorry i mistyped that
+we are departing from kyoto. but do not have a destination in mind",BookFlight,kyoto,,,,
+heya,BookFlight,,,,,
+"i have business in belem… business that requires me to be in close proximity to 5-star hotel type clients. i’m leaving from vitoria, 3200 dollar
+budget",BookFlight,Vitoria,Belem,,,3200
+puebla to manas for 2 adults please!,BookFlight,PUebla,Manas,,,
+pittsburgh to guadalajara. what's the cost?,BookFlight,pittsburgh,guadalajara,,,
+hi do you fly from ulsan to london??,BookFlight,Ulsan,London,,,
+hello we are 6 very quiet foreign exchange students from santiago and we think that we need to start socializing more so we are thinking of going to rome for spring break,BookFlight,Santiago,Rome,,,
+hi im fro termina and i want to go on vacation on august 13th,BookFlight,termina,,August 13th,,
+"hello. i haven’t left kingston ontario in years, and i have 4900 left.
+i don’t think i could even take a trip to kobe for that price.. but would you let me know? i wish i could just go to kobe but i have no vacation days left because i had to take them all to care for my sick dog",BookFlight,Kingston Ontario,Kobe,,,4900
+i would like a vacation for one in mannheim from august 17 to september 7. my city of departure is porto alegre. it should cost less than $3000.,BookFlight,Porto Alegre,Mannheim,August 17,September 7,$3000
+i'd like to find a vacation from kabul to santiago for 1800. i dont care when i go and it's just me traveling,BookFlight,Kabul,Santiago,,,1800
+hi there. i have been tasked with bringing my big beautiful family on a trip! we need to go between august 30 and september 20. we've got 13100 dollars to spend and are leaving from dublin. lets hear whats available in st. louis!,BookFlight,Dublin,St. Louis,August 30,September 20,13100 dollars
+"hey i'm thinking of going from st. petersburg to hamburg, can you help me?",BookFlight,St. Petersburg,Hamburg,,,
+call off booking,Cancel,,,,,
+i would like to take my family on a trip from kabul to phoenix,BookFlight,Kabul,Phoenix,,,
+i want to got to kochi,BookFlight,,Kochi,,,
+anything to minneapolis from calgary?,BookFlight,Calgary,Minneapolis,,,
+"hey, i want to go to rome from kochi. can you find me some packages between september 2nd and 6th for 4300",BookFlight,kochi,rome,2nd,6th,4300
+"i have 0 budget. but big dreams
+i’m heading out from tampa
+going to campinas
+but i’m ok with any destination really",BookFlight,Tampa,Campinas,,,0
+i need to find a vacation between today and september 14th from punta cana to san francisco,BookFlight,Punta Cana,San Francisco,today,September 14th,
+good day. i live in kabul and i want to take my extended family on a holiday,BookFlight,Kabul,,,,
+get me outta st. petersburg! i need a beach vacation!,BookFlight,St. Petersburg,,,,
+i am one person voyaging to tampa. i can depart from indianapolis. must be between 20th and 31 august.,BookFlight,Indianapolis,Tampa,20th,31 August,
+hey i live in mos eisley and i need to book a flight!,BookFlight,Mos Eisley,,,,
+i want a vacation from sydney to washington,BookFlight,Sydney,Washington,,,
+get me out of santiago for 13 days,BookFlight,santiago,,,,
+hiiii! i was just selected for an internship and i could do it in 3 different cities. since i'm on a budget i'll go to the city that best fits in my budget. the first one is porto aleger. do you have any packages from august 27th to september 5th?,BookFlight,,Porto Aleger,August 27th,September 5th,
+hi! my wife told me to look up some possible vacations,BookFlight,,,,,
+hi. i am in dire need of a vacation.,BookFlight,,,,,
+hi im from leon and looking to get away,BookFlight,Leon,,,,
+i want to go to barcelona from anywhere between the 12th and the 28th of september. i have 2100 and my assistant will be coming along. i am specifically looking for hotels near a park or beach or both.,BookFlight,,Barcelona,12th,28th of September,2100
+"jerusalem to tel aviv, got flights?",BookFlight,Jerusalem,Tel Aviv,,,
+"hey, i really need to get out of tofino for a while. any chance to leave on aug 29?",BookFlight,Tofino,,Aug 29,,
+"hi there… i need to get some overseas inspiration for my new novel… i’ve got a bit of writers block here in ciudad juarez, too much going on",BookFlight,Ciudad Juarez,,,,
+hi i am the happy father of one children.i need to book a trip to santos from philadelphia with a 1900 budget,BookFlight,Philadelphia,Santos,,,1900
+"i need to get to kabul, can you help me out here?",BookFlight,,Kabul,,,
+heyooooo,BookFlight,,,,,
+"i need you to get me to sendai from washington, on the 30th of august",BookFlight,Washington,Sendai,30th of August,,
+"you do vacation deals out of rome, yes?",BookFlight,rome,,,,
+"hey there, i’m a student looking to stretch 2700 to get myself a trip to an internship, hoping you can help me out here. i would be departing from alexandria
+can you see if i can get to manas between aug 30 and sept 15 on this budget?",BookFlight,Alexandria,Manas,Aug 30,Sept 15,2700
+Book me a hotel,None,,,,,
+"i'm so happy, my wife is finally letting me plan the family vacation! we saved all of our loonies and twonies this year and we have a whole $5000 to spend! now, i have to impress her by getting the best possible information on all of our options. i think belem would be a great place to take the kiddies!",BookFlight,,Belem,,,$5000
+hi! i need to check out several destinations with you! are you able to help me?,BookFlight,,,,,
+"hey there, i need to book a trip to get away!",BookFlight,,,,,
+"hello,",BookFlight,,,,,
+looking to go to guadalajara,BookFlight,,Guadalajara,,,
+hey looking for a sweet deal on a family vacation,BookFlight,,,,,
+pokemon pokemon pokemon. i am looking for mewtwo in busan at the start of next month and i need a travel package,BookFlight,,busan,,,
+san diego to pittsburgh for 7 adults total,BookFlight,San Diego,Pittsburgh,,,
+get me to kyoto!!!,BookFlight,,KYOTO,,,
+"hey man! i just finished school!!!! yes i know, i graduated, who would have ever imagined that? haha haters gonna hate, it took me 7 years but i'm done with uniiii. anyways, i wanna go somewhere starting august 27th. i can be gone for 10 days before starting work",BookFlight,,,August 27th,,
+"yes please, i'd like to book a trip to kobe.",BookFlight,,Kobe,,,
+i'd like to try and book a vacation between september 2nd and september 15th,BookFlight,,,september 2nd,september 15th,
+can you get me out of tofino???,BookFlight,Tofino,,,,
+hi there! i have a couple interviews coming up. do you have anything to kyoto?,BookFlight,,Kyoto,,,
+i need to book a trip for the whole family from tampa but we don't know where to go. can you help us?,BookFlight,Tampa,,,,
+hi i'd like to take a trip.,BookFlight,,,,,
+i need to get home! it’s an emergency,BookFlight,,,,,
+"hey there! i need to take some pics of madonna and her friend in london, i work with intouch magazine. can you get me there from los angeles?",BookFlight,Los Angeles,London,,,
+"well to be honest i have no vacation days left and not savings to actually book something, but it doesn't hope to dream right? i figured i'd better do some research in case i win the lottery tomorrow haha",BookFlight,,,,,
+i'm looking to book a trip to fukuoka from mannheim leaving on august 27th for my honeymoon.,BookFlight,Mannheim,Fukuoka,August 27th,,
+looking for a trip out of sl for 3 adults 7 kids,BookFlight,SL,,,,
+hi wizard! i'm looking for a trip from rosario.,BookFlight,Rosario,,,,
+hello there i am in milan and looking to travel to santo domingo on wednesday august 24. sorry for all the yelling i'm in a helicopter,BookFlight,MILAN,SANTO DOMINGO,WEDNESDAY AUGUST 24,,
+"i need to be in cleveland at some point between september 6 to 16. burlington being the point of departure
+can you do this for 2100?",BookFlight,Burlington,Cleveland,September 6,16,2100
+i want to go to tijuana.,BookFlight,,Tijuana,,,
+ok bud i'm sure you've never dealt with this kinda thing in ur line of work but i've got a bit of a bad rap here on the streets of burlington so i've gotta lay low for a little while... i've got 1700 dollars to burn.  can ya get me to long beach by the first of next month,BookFlight,Burlington,Long Beach,first of next month,,1700
+hey. looking to get the family out of montreal for a bit,BookFlight,Montreal,,,,
+hi im planning my spring break can you help me find the best deals?,BookFlight,,,,,
+"by chance, can i take my family from recife to rome? thats me, my wife, and my son
+we have $4700 to spend and ideally want to go for 12 days",BookFlight,Recife,Rome,,,$4700
+"hi! i hear hogsmeade has some excellent bars. can you book me a trip there from diagon alley, leaving on august 13th? for 7 men and women",BookFlight,Diagon Alley,Hogsmeade,August 13th,,
+hi! i'd like to go to boston from mos eisley on august 15th.,BookFlight,Mos Eisley,Boston,August 15th,,
+"hello. i have internship offerings and i need to check out a few cities
+im leaving essen and can only spend 2900 dollars, got it???",BookFlight,essen,,,,2900
+call off reservation,Cancel,,,,,
+id like to book a trip. i have a very tight budget of $2600. i would need to be there between august 27th to september 11th.,BookFlight,,,August 27th,September 11th,$2600
+burlington to denver please,BookFlight,Burlington,Denver,,,
+baltimore to sacramento,BookFlight,Baltimore,Sacramento,,,
+i would like to take my darling little munchkins and my beautiful wife with me on a lovely family vacation. we were thinking about going to atlanta.,BookFlight,,Atlanta,,,
+i've got 9 days to take off this month.. any time is good. i was looking to see where i can go from barcelona.,BookFlight,,Barcelona,,,
+hi im taking the family on a trip to manaus is that possible with a budget of $3900,BookFlight,,Manaus,,,$3900
+long beach to belo horizonte september eighth,BookFlight,Long Beach,Belo Horizonte,September eighth,,
+"hi, i need to go to mos eisley for a wedding, leaving on saturday, august 13, 2016 and returning on tuesday, august 16, 2016. preferably for $3700.",BookFlight,,Mos Eisley,"Saturday, August 13, 2016","Tuesday, August 16, 2016",$3700
+"hi, i need to get to sendai for a business meeting.",BookFlight,,Sendai,,,
+i'm a fashion designer and i'm going to be doing an internship with a very  famous fashion designer. do you have any flight and hotel packages to rome?,BookFlight,,Rome,,,
+hello. i’m hearing good things about the uni in hiroshima. i would like to visit there and leave from burlington.,BookFlight,Burlington,Hiroshima,,,
+i am looking for a honeymoon package to manaus. i heard it is the perfect honeymooners paradise. the wedding cost us an arm and a leg so i really need something reasonable.,BookFlight,,Manaus,,,
+Can you book a restaurant?,None,,,,,
+i dream of a better life and i want to go to sendai,BookFlight,,Sendai,,,
+"i need to get away from my life i need your help in finding a place to go to in belem, preferably with very few people around something simple but at the same time very luxurious  with a private villa and a spa where my best friend and i can just relax in our private beach oh and we need a chef to cook us vegan meals",BookFlight,,Belem,,,
+hi i’m looking to go on a trip to caprica,BookFlight,,Caprica,,,
+"i need to get to beijing so i can get a picture of madonna and her huge popstar friend, greg.",BookFlight,,Beijing,,,

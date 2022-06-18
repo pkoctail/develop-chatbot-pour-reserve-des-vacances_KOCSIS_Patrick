@@ -1,0 +1,27 @@
+text,intent,or_city,dst_city,str_date,end_date,budget
+hey! so me and my girlfriends are in the search for a perfect spring break trip!,BookFlight,,,,,
+i want to send my parents away,BookFlight,,,,,
+"hi there, i'd like to book a vacation to queenstown please.",BookFlight,,Queenstown,,,
+i'd love to go to minneapolis sometime,BookFlight,,Minneapolis,,,
+"yo whats good in essen here, want to get out for a bit can you check if there are flights to cancun between august 24 and sept 4",BookFlight,essen,cancun,august 24,sept 4,
+why hello there! can you see what's available for north vancouver from sydney?,BookFlight,Sydney,North Vancouver,,,
+exit this session,Cancel,,,,,
+i have 7 days vacation,BookFlight,,,,,
+portland to athens sept 11 to 15 i want these exact dates please,BookFlight,PORTLAND,ATHENS,SEPT 11,15,
+"hey there, i'm doing some travelling for business soon. it needs to be around august 18-august 26. what can you do for me?",BookFlight,,,August 18,August 26,
+"hello, i'm looking to book a trip for two from puebla to hamburg",BookFlight,Puebla,Hamburg,,,
+good afternoon. my husband and i would like to travel with our 6 kids. we have time off between august 15th and 19th. what can you offer for us?,BookFlight,,,August 15th,19th,
+hi! i'd like to book a trip to tel aviv from tijuana. i was wondering if there are any packages from august 23rd to 26th for $3400 for 2 adults. my dates are also flexible.,BookFlight,Tijuana,Tel Aviv,August 23rd,26th,$3400
+hi you can help me by exploring my options to travel from paris to san jose.,BookFlight,Paris,San Jose,,,
+i work in sendai and i need to get out of here. i'm willing to blow all my savings,BookFlight,Sendai,,,,all my savings
+hello wozbot!,BookFlight,,,,,
+"hi there. san antonio to mexico city
+no budget",BookFlight,San Antonio,Mexico City,,,
+yo fam want to take my girl down to punta cana,BookFlight,,Punta Cana,,,
+"hi there, do you have any flights out of tofino?",BookFlight,Tofino,,,,
+yes i need to go help 3 pit bulls before it's too late but i have to go where it's easiest and cheapest first. everyone thinks i'm rich but i do this mainly out of love. can you get me something in mexico city for $2400,BookFlight,,Mexico City,,,$2400
+hey there :slightly_smiling_face: i’m bringing my wife (2 adults) and 4 kids (6 people in total) on vacation for 8900 dollars,BookFlight,,,,,8900 dollars
+hi i would like to book a vacation from august 27th to august 30th,BookFlight,,,August 27th,August 30th,
+hello! were leaving from brasilia and looking to book our honeymoon,BookFlight,Brasilia,,,,
+"hello, so, i need the best hotel in tokyo that 6100 dollars can me. i'm taking off out of denver, heads up, and leaving august 27th
+or soon after..",BookFlight,Denver,Tokyo,August 27th,,6100 dollars
