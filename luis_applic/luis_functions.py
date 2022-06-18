@@ -328,3 +328,135 @@ def val_utterances(val_df):
 
     return val_data_for_luis
 
+# envoyer 1 requête test
+def luis_prediction(clientRuntime, app_id):
+    """tester 1 requête du modèle de Luis"""
+    text_request = {
+        "query": "I would like to travel to london from paris on august 18 and return on august 25 for a budget of 1000 euros"
+    }
+    luis_prediction_response = clientRuntime.prediction.resolve(
+        app_id, query=text_request, verbose=True
+    )
+
+    text_returned = luis_prediction_response.query
+    top_intent = luis_prediction_response.top_scoring_intent.intent
+    intents = luis_prediction_response.intents
+    entities = luis_prediction_response.entities
+
+    return text_returned, top_intent, intents, entities
+
+
+# obtenir des résultats de validation
+def get_results_validation(predictionKey, response_get_endpoint, val_utterance):
+    results_validation = []
+    for text in val_utterance:
+        text = text["text"]
+        # text_list.append(text)
+        params = {"q": text, "subscription-key": predictionKey}
+        url_1 = response_get_endpoint
+        response_status = requests.get(url_1, params=params)
+        results_validation.append(response_status.json())
+    print("Getting validation response:")
+    print(response_status)
+    return results_validation
+
+    # calculer la précision de l'intention
+
+
+def get_validation_intent_accuracy(results_validation, val_df):
+    # pd.set_option('display.max_rows', None)
+    pred_intent = []
+    for dictionaries in results_validation:
+        pred_intent_values = dictionaries["topScoringIntent"]["intent"]
+        pred_intent.append(pred_intent_values)
+    df_pred_intent = pd.DataFrame(pred_intent, columns=["pred_intent"])
+    val_df.reset_index(drop=True, inplace=True)
+    gt_intent_series = val_df.intent
+    gt_intent_df = pd.DataFrame(gt_intent_series)
+    gt_intent_df.rename(columns={"intent": "gt_intent"}, inplace=True)
+    all_intents = pd.concat([df_pred_intent, gt_intent_df], axis=1)
+    correct_intents = 0
+    for index in range(len(all_intents)):
+        # print (index)
+        if (all_intents["pred_intent"].iloc[index] == "BookFlight") & (
+            all_intents["gt_intent"].iloc[index] == "BookFlight"
+        ):
+            correct_intents += 1
+        if (all_intents["pred_intent"].iloc[index] == "Cancel") & (
+            all_intents["gt_intent"].iloc[index] == "Cancel"
+        ):
+            correct_intents += 1
+        if (all_intents["pred_intent"].iloc[index] == "None") & (
+            all_intents["gt_intent"].iloc[index] == "None"
+        ):
+            correct_intents += 1
+    accuracy_percent = correct_intents / len(all_intents) * 100
+    return print("The intent accuracy for validation dataset is:", accuracy_percent)
+
+    # obtenir la précision de l'entité
+
+
+def get_validation_entites_accuracy(results_validation, val_df):
+    table_data = []
+    entities_we_want = ["or_city", "dst_city", "str_date", "end_date", "budget"]
+
+    for result in results_validation:
+        this_dict = {
+            "query": result["query"],
+            "intent": result["topScoringIntent"]["intent"],
+        }
+        tmp_keys = {}
+        for entity in result["entities"]:
+            if entity["type"] in entities_we_want:
+                tmp_keys[entity["type"]] = entity["entity"]
+        for entity_name in entities_we_want:
+            if entity_name not in tmp_keys:
+                tmp_keys[entity_name] = ""
+        this_dict.update(tmp_keys)
+        table_data.append([this_dict])
+    # using list comprehension
+    flat_ls_tabledata = [item for sublist in table_data for item in sublist]
+    df_entity_validation = pd.DataFrame(flat_ls_tabledata)
+    val_df.reset_index(drop=True, inplace=True)
+    val_df.fillna(
+        value={
+            "or_city": "",
+            "dst_city": "",
+            "str_date": "",
+            "end_date": "",
+            "budget": "",
+        },
+        inplace=True,
+    )
+    correct_entities = 0
+    for index in range(len(df_entity_validation)):
+        # print (index)
+        if bool(df_entity_validation.or_city.iloc[index]) == bool(
+            val_df.or_city.iloc[index]
+        ):
+            correct_entities += 1
+        if bool(df_entity_validation.dst_city.iloc[index]) == bool(
+            val_df.dst_city.iloc[index]
+        ):
+            correct_entities += 1
+        if bool(df_entity_validation.str_date.iloc[index]) == bool(
+            val_df.str_date.iloc[index]
+        ):
+            correct_entities += 1
+        if bool(df_entity_validation.end_date.iloc[index]) == bool(
+            val_df.end_date.iloc[index]
+        ):
+            correct_entities += 1
+        if bool(df_entity_validation.budget.iloc[index]) == bool(
+            val_df.budget.iloc[index]
+        ):
+            correct_entities += 1
+    total_entities = (
+        len(val_df.or_city)
+        + len(val_df.dst_city)
+        + len(val_df.str_date)
+        + len(val_df.end_date)
+        + len(val_df.budget)
+    )
+    entity_validation_accuracy = correct_entities / total_entities * 100
+    return print("The entity validation accuracy is:", entity_validation_accuracy)
