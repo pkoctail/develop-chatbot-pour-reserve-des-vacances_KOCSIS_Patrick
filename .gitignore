@@ -1,0 +1,7 @@
+**/.env
+*.ipynb
+*.pptx
+*.bot
+__pycache__/
+
+
